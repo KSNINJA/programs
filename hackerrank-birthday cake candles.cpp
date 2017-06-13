@@ -5,7 +5,7 @@ int main()
 {
 int n;
 cin>>n;
-int array[n];
+int  *array =new int [n];
 int i=0;
 while(i<n)
 {
